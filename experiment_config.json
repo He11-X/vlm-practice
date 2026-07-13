@@ -1,0 +1,18 @@
+{
+  "MODEL_NAME": "deepvk/llava-saiga-8b",
+  "PROCESSOR_NAME": "deepvk/llava-saiga-8b",
+  "OUTPUT_DIR": "./experiment_checkpoints",
+  "DATA_DIR": "./data",
+  "GQA_TRAIN_SPLIT": "train_balanced_instructions",
+  "GQA_VAL_SPLIT": "validation_balanced_instructions",
+  "GQA_TEST_SPLIT": "testdev_balanced_instructions",
+  "MMBENCH_SPLIT": "dev",
+  "MAX_LENGTH": 2048,
+  "BATCH_SIZE": 4,
+  "GRAD_ACCUM": 2,
+  "EPOCHS": 2,
+  "LEARNING_RATE": 2e-5,
+  "WARMUP_RATIO": 0.03,
+  "SEED": 42,
+  "EVAL_SAMPLES": 100
+}
